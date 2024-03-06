@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/nullstyle.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <a class="header-logo btn-animate" href="">
+            ЛОГО
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="header-stroke">
+                <path d="M15 7.20072V7.04928H14.9641C10.8913 7.04928 7.5797 3.90323 7.5797 0.0340729V0H7.4203V0.0340729C7.4203 3.90323 4.10866 7.04928 0.035866 7.04928H0V7.20072H0.035866C4.10866 7.20072 7.4203 10.3468 7.4203 14.2159V14.25H7.5797V14.2159C7.5797 10.3468 10.8913 7.20072 14.9641 7.20072H15Z" fill="black"/>
+            </svg> 
+        </a>
+        <div class="header-nav">
+            <a class="active" href="/">Главная</a>
+            <a href="/" class="btn-animate">Каталог</a>
+            <a href="/" class="btn-animate">О компании</a>
+            <a href="/" class="btn-animate">Контакты</a>
+        </div>
+        <div class="header-burger btn-animate">
+            <div class="header-burger__line1"></div>
+            <div class="header-burger__line2"></div>
+            <div class="header-burger__line3"></div>
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="header-stroke-1">
+                <path d="M15 7.20072V7.04928H14.9641C10.8913 7.04928 7.5797 3.90323 7.5797 0.0340729V0H7.4203V0.0340729C7.4203 3.90323 4.10866 7.04928 0.035866 7.04928H0V7.20072H0.035866C4.10866 7.20072 7.4203 10.3468 7.4203 14.2159V14.25H7.5797V14.2159C7.5797 10.3468 10.8913 7.20072 14.9641 7.20072H15Z" fill="black"/>
+            </svg>                
+        </div>
+    </header>
+    <section class="preview">
+        <div class="preview-top">
+            <h1>Изготовление<br>
+                грузового оборудования</h1>
+            <p>Качественные современные лифты, сочетающие в себе наиболее удачные инженерно-технические решения, с грузоподъемностью от 400 до 1000 кг</p>
+        </div>
+        <div class="preview-slider">
+            <div class="glass-block">
+                <a href="/">
+                    <div class="round"></div>
+                    <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.0607 13.0607C13.6464 12.4749 13.6464 11.5251 13.0607 10.9393L3.51472 1.3934C2.92893 0.807613 1.97918 0.807613 1.3934 1.3934C0.80761 1.97919 0.80761 2.92893 1.3934 3.51472L9.87868 12L1.3934 20.4853C0.807613 21.0711 0.807613 22.0208 1.3934 22.6066C1.97919 23.1924 2.92893 23.1924 3.51472 22.6066L13.0607 13.0607ZM10 13.5L12 13.5L12 10.5L10 10.5L10 13.5Z" fill="white"/>
+                    </svg>
+                    Смотреть каталог
+                </a>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/images/Rectangle 1.png">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/images/Rectangle 2.png">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/images/Rectangle 3.png">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/images/Rectangle 4.png">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/images/Rectangle 5.png">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              
+              </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="advantages-img jquery-ripples" style="background-image: url(assets/images/background.png);"></div>
+        <div class="advantages-block">
+            <div class="advantages-tabs">
+                <a class="active" data-index="1">Экологичность</a>
+                <a data-index="2">Качество</a>
+                <a data-index="3">Функциональность</a>
+            </div>
+            <div class="advantages-info parallax">
+                <img class="advantages-info__img" src="assets/images/background.png" />
+                <h4 class="advantages-info__title">Экологичность</h4>
+                <p>Некоторые образцы мебели изготавливаются из экологически чистых материалов, что может быть привлекательным для тех, кто обеспокоен вопросами охраны окружающей среды</p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <img class="about-img" src="assets/images/Rectangle 114.png">
+        <div class="about-top">
+            <div class="about-top__info parallax">
+                <h4>О НАС</h4>
+                <p>ООО “Арлифт Интернешнл” - производитель<br>высококлассного лифтового оборудования на<br>территории России и за рубежом.</p>
+                <p>Мы предлагаем широкийвыбор лифтов разных типов и моделей, чтобы удовлетворить потребности нашихклиентов. Будь то многоэтажное здание, жилой комплекс или офисный центр, у насесть лифты, которые подойдут для любого проекта.</p>
+                <a href="/">Получить консультацию</a>
+            </div>
+            <div class="about-top__title">
+                <h4><span>Преимущества</span></h4>
+                <h4>нашей Компании</h4>
+                <h4><span>в цифрах</span></h4>
+            </div>
+        </div>
+        <div class="about-bottom parallax">
+            <div class="about-card__elem">
+                <h4>100%</h4>
+                <hr>
+                <p>оригинальные решения</p>
+            </div>
+            <div class="about-card__elem">
+                <h4>500+</h4>
+                <hr>
+                <p>довольных клиентов</p>
+            </div>
+            <div class="about-card__elem">
+                <h4>5</h4>
+                <hr>
+                <p>лет гарантия</p>
+            </div>
+            <div class="about-card__elem blue">
+                <h4>10 лет</h4>
+                <hr>
+                <p>поднимаем партнеров на новый уровень</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    type: "fraction",
+  },
+  autoplay: {
+   delay: 5000,
+  },
+
+
+});
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.utils.toArray('.parallax').forEach(container => {
+  const img = container;
+
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: container,
+      scrub: true,
+      pin: false,
+    }
+  });
+
+  tl.fromTo(img, {
+    yPercent: -10,
+    ease: 'none'
+  }, {
+    yPercent: 10,
+    ease: 'none'
+  });
+});
+
+
+$('.jquery-ripples').ripples({
+    resolution: 256,
+    dropRadius: 20,
+    perturbance: 0.04
+});
+
+
+</script>
+</html>
