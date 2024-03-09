@@ -230,7 +230,7 @@ header {
     border-radius: 5.3rem;
 }
 
-.advantages-tabs a.active {
+.advantages-tabs a:hover {
     color: #00BDD3;
     border-color: #00BDD3;
 }
