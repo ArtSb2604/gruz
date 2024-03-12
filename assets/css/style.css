@@ -278,7 +278,7 @@ header {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    filter: blur(0.3rem);
+    filter: blur(0.4rem);
 }
 
 .about-top {
@@ -373,10 +373,18 @@ header {
     font-weight: 600;
 }
 
+.about-card__elem.btn-animate:hover h4 {
+    color: #FFF;
+}
+
 .about-card__elem hr {
     background: #C1C1C1;
     width: 9rem;
     height: .1rem;
+}
+
+.about-card__elem:nth-child(4) {
+    width: 40.5rem;
 }
 
 .about-card__elem.blue {
@@ -434,4 +442,16 @@ header {
 
 .btn-animate:hover div {
     background: #FFF;
+}
+
+.header-burger.btn-animate:hover .header-burger__line1,
+.header-burger.btn-animate:hover .header-burger__line2,
+.header-burger.btn-animate:hover .header-burger__line3 {
+    transition: 0.5s all;
+}
+
+.header-burger.btn-animate:hover .header-burger__line1,
+.header-burger.btn-animate:hover .header-burger__line2,
+.header-burger.btn-animate:hover .header-burger__line3 {
+    transform: rotate(180deg);
 }
